@@ -10,7 +10,7 @@ RUN apt-get update \
   && tar zxvf smartdns.1.2019.03.02-1141.x86_64.tar.gz \
   && cp smartdns/src/smartdns /start \
   && rm -rf smartdns* \
-  && apt-get --purge remove wget
+  && apt-get -y --purge remove wget
 
 ADD start.sh /start.sh
 ADD config.conf /config.conf
