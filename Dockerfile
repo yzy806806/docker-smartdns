@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM ubuntu:bionic
 
 LABEL maintainer="Ghostry <ghostry.green@gmail.com>"
 
